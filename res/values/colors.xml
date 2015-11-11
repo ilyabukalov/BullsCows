@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <color name="backGround">#0772A1</color> 
+    <color name="text">#fff</color> 
+    <color name="endColor">#206887</color> 
+    <color name="endColorHover">#a5d3e8</color> 
+    <color name="startColor">#63afd0</color> 
+</resources>

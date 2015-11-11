@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|fill_horizontal"
+    android:gravity="center_horizontal|fill_horizontal"
+    android:orientation="horizontal" >
+
+    <TableRow
+        android:id="@+id/tableRowTexts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/table_common_margin"
+        android:layout_marginRight="@dimen/table_common_margin"
+        android:layout_marginTop="@dimen/top_common_margin" >
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/bulls" />
+
+        <android.support.v7.widget.Space
+            android:id="@+id/spaceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewCow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/cows" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/table_common_margin"
+        android:layout_marginRight="@dimen/table_common_margin"
+        android:layout_marginTop="@dimen/top_common_margin" >
+
+        <NumberPicker
+            android:id="@+id/numberPickerBull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+        <android.support.v7.widget.Space
+            android:id="@+id/spaceNumberPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <NumberPicker
+            android:id="@+id/numberPickerCow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,46 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/backGround</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:buttonStyle">@style/ThemeButton</item>
+    </style>
+
+    <style name="ThemeButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/hbutton</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:windowBackground">@color/backGround</item>
+        <item name="android:background">@color/backGround</item>
+        <item name="android:bottomBright">@color/backGround</item>
+        <item name="android:bottomDark">@color/backGround</item>
+        <item name="android:bottomMedium">@color/backGround</item>
+        <item name="android:centerBright">@color/backGround</item>
+        <item name="android:centerDark">@color/backGround</item>
+        <item name="android:centerMedium">@color/backGround</item>
+        <item name="android:fullBright">@color/backGround</item>
+        <item name="android:fullDark">@color/backGround</item>
+        <item name="android:topBright">@color/backGround</item>
+        <item name="android:topDark">@color/backGround</item>
+        <item name="android:windowFrame">@color/backGround</item>
+    </style>
+
+</resources>
